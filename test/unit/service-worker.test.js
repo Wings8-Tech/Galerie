@@ -46,7 +46,7 @@ describe('sw.js caching strategy', () => {
   test('CACHE_NAME stays namespaced and was bumped for this change', () => {
     const m = sw.match(/const CACHE_NAME = '([^']+)';/);
     expect(m).toBeTruthy();
-    expect(m[1]).toMatch(/^jemaos-gallery-v\d+\.\d+\.\d+$/);
-    expect(m[1]).not.toBe('jemaos-gallery-v1.6.1');
+    expect(m[1]).toMatch(/^wings8os-gallery-v\d+\.\d+\.\d+$/);
+    expect(m[1]).not.toBe('wings8os-gallery-v1.6.1');
   });
 });

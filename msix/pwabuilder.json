@@ -1,10 +1,10 @@
 {
   "$schema": "https://json.schemastore.org/pwabuilder.json",
   "name": "Galerie",
-  "description": "Une galerie de JemaOS pour visualiser des images, des vidéos et des fichiers audio",
+  "description": "Une galerie de Wings8OS pour visualiser des images, des vidéos et des fichiers audio",
   "publisher": {
-    "displayName": "JemaOS",
-    "commonName": "CN=JemaOS"
+    "displayName": "Wings8OS",
+    "commonName": "CN=Wings8OS"
   },
   "version": "1.0.0.0",
   "classicPackage": {

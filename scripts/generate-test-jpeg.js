@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2025 Jema Technology
+ * Copyright (C) 2025 Wings8 Technology
  *
  * Generate a large JPEG fixture used to benchmark opening a big photo.
  * Output: test/fixtures/large-5700x8000.jpg (5700x8000, ~45.6 MP).

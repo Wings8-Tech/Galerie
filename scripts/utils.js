@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2025 Jema Technology
+ * Copyright (C) 2025 Wings8 Technology
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU Affero General Public License as
@@ -15,10 +15,10 @@
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-// JemaOS Gallery - Utility Functions
+// Wings8OS Gallery - Utility Functions
 
 /**
- * Utility functions for the JemaOS Gallery
+ * Utility functions for the Wings8OS Gallery
  */
 
 class GalleryUtils {

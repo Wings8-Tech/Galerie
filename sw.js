@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2025 Jema Technology
+ * Copyright (C) 2025 Wings8 Technology
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU Affero General Public License as
@@ -15,7 +15,7 @@
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-// Service Worker for JemaOS Gallery PWA
+// Service Worker for Wings8OS Gallery PWA
 //
 // Update strategy: a new deployment reaches users WITHOUT a manual version bump.
 //   - Documents (index.html, navigations): network-first, cache only as an
@@ -29,7 +29,7 @@
 // activate. Bumping it is no longer required for content changes to land, but it
 // is still the way to force an immediate service-worker update (and thus the
 // in-app "update available" prompt) when the worker logic itself changes.
-const CACHE_NAME = 'jemaos-gallery-v1.6.16';
+const CACHE_NAME = 'wings8os-gallery-v1.6.16';
 const urlsToCache = [
   './',
   './index.html',
@@ -111,9 +111,9 @@ self.addEventListener('activate', event => {
 
 // Fetch event - serve cached content when offline
 self.addEventListener('fetch', event => {
-  // Skip cross-origin requests and jema-extension requests
+  // Skip cross-origin requests and wings8-extension requests
   if (!event.request.url.startsWith(self.location.origin) || 
-      event.request.url.startsWith('jema-extension://')) {
+      event.request.url.startsWith('wings8-extension://')) {
     return;
   }
   if (event.request.method !== 'GET') {

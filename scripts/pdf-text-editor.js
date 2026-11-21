@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2025 Jema Technology
+ * Copyright (C) 2025 Wings8 Technology
  *
  * PDF Text Editor - Adobe Acrobat DC Level Precision
  *

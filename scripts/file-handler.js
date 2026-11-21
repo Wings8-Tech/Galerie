@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2025 Jema Technology
+ * Copyright (C) 2025 Wings8 Technology
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU Affero General Public License as
@@ -15,7 +15,7 @@
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-// JemaOS Gallery - File Handler
+// Wings8OS Gallery - File Handler
 
 /**
  * Handles all file operations including loading, processing, and management
@@ -977,7 +977,7 @@ class FileHandler {
         }
       };
       
-      localStorage.setItem('jemaos-gallery-data', JSON.stringify(data));
+      localStorage.setItem('wings8os-gallery-data', JSON.stringify(data));
     } catch (error) {
       console.error('Failed to save to storage:', error);
     }
@@ -988,7 +988,7 @@ class FileHandler {
    */
   loadFromStorage() {
     try {
-      const data = localStorage.getItem('jemaos-gallery-data');
+      const data = localStorage.getItem('wings8os-gallery-data');
       if (data) {
         const parsed = JSON.parse(data);
         

@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2025 Jema Technology
+ * Copyright (C) 2025 Wings8 Technology
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU Affero General Public License as
@@ -25,7 +25,7 @@ const I18N_LANGUAGES = {
 const I18N_TRANSLATIONS = {
   en: {
     // App
-    appDescription: "A JemaOS gallery for viewing images, videos, and audio files",
+    appDescription: "A Wings8OS gallery for viewing images, videos, and audio files",
     loadingGallery: "Loading gallery...",
     dropFilesHere: "Drop files here to add them to the gallery",
     language: "Language",
@@ -206,7 +206,7 @@ const I18N_TRANSLATIONS = {
 
   fr: {
     // App
-    appDescription: "Une galerie de JemaOS pour visualiser des images, des vidéos et des fichiers audio",
+    appDescription: "Une galerie de Wings8OS pour visualiser des images, des vidéos et des fichiers audio",
     loadingGallery: "Chargement de la galerie...",
     dropFilesHere: "Déposez des fichiers ici pour les ajouter à la galerie",
     language: "Langue",
@@ -388,7 +388,7 @@ const I18N_TRANSLATIONS = {
 
 // localStorage key holding the user's language choice, read on startup so the
 // selection survives reloads and re-launches.
-const I18N_STORAGE_KEY = 'jemaos-language';
+const I18N_STORAGE_KEY = 'wings8os-language';
 
 /**
  * Read the persisted language, if any and if it is a known language.
@@ -416,7 +416,7 @@ function persistLang(lang) {
   }
 }
 
-// French by default for JemaOS PWAs; a manual choice is remembered across launches.
+// French by default for Wings8OS PWAs; a manual choice is remembered across launches.
 let currentLang = readStoredLang() || 'fr';
 
 /**
@@ -489,7 +489,7 @@ function setI18nLang(lang) {
   }
 }
 
-// ============ LANGUAGE SELECTOR (ported from JemaPDF LanguageSelector.jsx) ============
+// ============ LANGUAGE SELECTOR (ported from Wings8PDF LanguageSelector.jsx) ============
 
 function updateLanguageSelectorUI() {
   const container = document.getElementById('language-selector');

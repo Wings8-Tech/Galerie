@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2025 Jema Technology
+ * Copyright (C) 2025 Wings8 Technology
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU Affero General Public License as
@@ -15,7 +15,7 @@
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-// JemaOS Gallery - Main Application
+// Wings8OS Gallery - Main Application
 
 /**
  * Main application entry point
@@ -35,7 +35,7 @@ function isFileLaunchRoute() {
   }
 }
 
-class JemaOSGallery {
+class Wings8OSGallery {
   fileHandler = null;
   uiController = null;
   fullscreenViewer = null;
@@ -72,7 +72,7 @@ class JemaOSGallery {
    */
   async init() {
     try {
-      console.log('🚀 Initializing JemaOS Gallery...');
+      console.log('🚀 Initializing Wings8OS Gallery...');
       
       // Show loading screen
       this.showLoadingScreen(true);
@@ -144,10 +144,10 @@ class JemaOSGallery {
       applyI18n();
       updateLanguageSelectorVisibility();
       
-      console.log('✅ JemaOS Gallery initialized successfully');
+      console.log('✅ Wings8OS Gallery initialized successfully');
       
     } catch (error) {
-      console.error('❌ Failed to initialize JemaOS Gallery:', error);
+      console.error('❌ Failed to initialize Wings8OS Gallery:', error);
       this.showError(t('initFailed'));
     }
   }
@@ -653,7 +653,7 @@ class JemaOSGallery {
       this.fileHandler.selectedFiles.clear();
       
       // Clear storage
-      localStorage.removeItem('jemaos-gallery-data');
+      localStorage.removeItem('wings8os-gallery-data');
       
       // Clear thumbnails cache
       this.fileHandler.thumbnails.clear();
@@ -724,7 +724,7 @@ class JemaOSGallery {
    * Debug function to log app state
    */
   debug() {
-    console.group('🔍 JemaOS Gallery Debug Info');
+    console.group('🔍 Wings8OS Gallery Debug Info');
     console.log('Version:', this.getVersion());
     console.log('Initialized:', this.isInitialized);
     console.log('Files:', {
@@ -768,7 +768,7 @@ class JemaOSGallery {
 }
 
 // Initialize the application when DOM is ready
-const galleryApp = new JemaOSGallery();
+const galleryApp = new Wings8OSGallery();
 
 // Auto-initialize
 if (document.readyState === 'loading') {
@@ -811,5 +811,5 @@ if ('serviceWorker' in navigator) {
 
 // Export for module systems
 if (typeof module !== 'undefined' && module.exports) {
-  module.exports = JemaOSGallery;
+  module.exports = Wings8OSGallery;
 }

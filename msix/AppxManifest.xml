@@ -22,16 +22,16 @@
   IgnorableNamespaces="uap uap3 rescap">
 
   <Identity
-    Name="JemaOS.Galerie"
-    Publisher="CN=JemaOS, O=JemaOS, C=FR"
+    Name="Wings8OS.Galerie"
+    Publisher="CN=Wings8OS, O=Wings8OS, C=FR"
     Version="1.0.0.0"
     ProcessorArchitecture="neutral" />
 
   <Properties>
     <DisplayName>Galerie</DisplayName>
-    <PublisherDisplayName>JemaOS</PublisherDisplayName>
+    <PublisherDisplayName>Wings8OS</PublisherDisplayName>
     <Logo>icons\icon-48x48.png</Logo>
-    <Description>Une galerie de JemaOS pour visualiser des images, des vidéos et des fichiers audio</Description>
+    <Description>Une galerie de Wings8OS pour visualiser des images, des vidéos et des fichiers audio</Description>
   </Properties>
 
   <Dependencies>

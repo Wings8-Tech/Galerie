@@ -1,10 +1,10 @@
 <div align="center">
 
-<h1>JemaOS Gallery</h1>
+<h1>Wings8OS Gallery</h1>
 
 ### A fast, lightweight media gallery for images, video, audio and PDF
 
-[![Made by Jema Technology](https://img.shields.io/badge/Made%20by-Jema%20Technology-8286ef)](https://www.jematechnology.fr)
+[![Made by Wings8 Technology](https://img.shields.io/badge/Made%20by-Wings8%20Technology-8286ef)](https://www.wings8.org)
 [![License: AGPL v3](https://img.shields.io/badge/License-AGPL--3.0-blue.svg)](LICENSE)
 [![Vanilla JS](https://img.shields.io/badge/Vanilla-JS-f7df1e?logo=javascript&logoColor=black)](#)
 [![PWA](https://img.shields.io/badge/PWA-Installable-8286ef)](#)
@@ -21,7 +21,7 @@
 
 </div>
 
-![JemaOS Gallery — image viewer](screenshots/main.png)
+![Wings8OS Gallery — image viewer](screenshots/main.png)
 
 ---
 
@@ -56,7 +56,7 @@
 This is a static web application — no bundler required.
 
 ```bash
-git clone https://github.com/JemaOS/Galerie.git
+git clone https://github.com/Wings8-Tech/Galerie.git
 cd Galerie
 npm install
 npm start          # serve the app (http://localhost:3000)
@@ -114,5 +114,5 @@ git push origin feat/my-feature
 Released under the **GNU AGPL-3.0** — see [LICENSE](LICENSE).
 
 <div align="center">
-Made with ❤️ by <a href="https://www.jematechnology.fr">Jema Technology</a>
+Made with ❤️ by <a href="https://www.wings8.org">Wings8 Technology</a>
 </div>

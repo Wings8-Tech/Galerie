@@ -14,7 +14,7 @@
   "keywords": [
     "gallery",
     "pwa",
-    "jemaos",
+    "wings8os",
     "images",
     "videos",
     "audio",
@@ -29,7 +29,7 @@
     "local-first",
     "vanilla-javascript"
   ],
-  "author": "Jema Technology",
+  "author": "Wings8 Technology",
   "license": "AGPL-3.0",
   "devDependencies": {
     "@playwright/test": "^1.57.0",
