@@ -1,5 +1,5 @@
 {
-  "name": "Galerie",
+  "name": "Wings8 Galerie",
   "short_name": "Galerie",
   "description": "A multimedia gallery app for viewing PDFs, images, audio, and video files",
   "start_url": "/",
@@ -8,10 +8,14 @@
   "display": "standalone",
   "orientation": "any",
   "background_color": "#202124",
-  "theme_color": "#202124",
+  "theme_color": "#0A1F4A",
   "lang": "en",
   "dir": "ltr",
-  "categories": ["multimedia", "productivity", "utilities"],
+  "categories": [
+    "multimedia",
+    "productivity",
+    "utilities"
+  ],
   "launch_handler": {
     "client_mode": "navigate-existing"
   },
@@ -86,18 +90,44 @@
     {
       "action": "./open",
       "accept": {
-        "image/jpeg": [".jpg", ".jpeg"],
-        "image/png": [".png"],
-        "image/gif": [".gif"],
-        "image/webp": [".webp"],
-        "image/svg+xml": [".svg"],
-        "image/bmp": [".bmp"],
-        "image/tiff": [".tiff", ".tif"],
-        "image/x-icon": [".ico"],
-        "image/heic": [".heic"],
-        "image/heif": [".heif"],
-        "image/avif": [".avif"],
-        "image/apng": [".apng"]
+        "image/jpeg": [
+          ".jpg",
+          ".jpeg"
+        ],
+        "image/png": [
+          ".png"
+        ],
+        "image/gif": [
+          ".gif"
+        ],
+        "image/webp": [
+          ".webp"
+        ],
+        "image/svg+xml": [
+          ".svg"
+        ],
+        "image/bmp": [
+          ".bmp"
+        ],
+        "image/tiff": [
+          ".tiff",
+          ".tif"
+        ],
+        "image/x-icon": [
+          ".ico"
+        ],
+        "image/heic": [
+          ".heic"
+        ],
+        "image/heif": [
+          ".heif"
+        ],
+        "image/avif": [
+          ".avif"
+        ],
+        "image/apng": [
+          ".apng"
+        ]
       },
       "icons": [
         {
@@ -130,16 +160,40 @@
     {
       "action": "./open",
       "accept": {
-        "video/mp4": [".mp4", ".m4v"],
-        "video/webm": [".webm"],
-        "video/x-matroska": [".mkv"],
-        "video/x-msvideo": [".avi"],
-        "video/quicktime": [".mov"],
-        "video/3gpp": [".3gp"],
-        "video/3gpp2": [".3g2"],
-        "video/mp2t": [".ts", ".m2ts", ".mts"],
-        "video/mpeg": [".mpeg", ".mpg"],
-        "video/ogg": [".ogv"]
+        "video/mp4": [
+          ".mp4",
+          ".m4v"
+        ],
+        "video/webm": [
+          ".webm"
+        ],
+        "video/x-matroska": [
+          ".mkv"
+        ],
+        "video/x-msvideo": [
+          ".avi"
+        ],
+        "video/quicktime": [
+          ".mov"
+        ],
+        "video/3gpp": [
+          ".3gp"
+        ],
+        "video/3gpp2": [
+          ".3g2"
+        ],
+        "video/mp2t": [
+          ".ts",
+          ".m2ts",
+          ".mts"
+        ],
+        "video/mpeg": [
+          ".mpeg",
+          ".mpg"
+        ],
+        "video/ogg": [
+          ".ogv"
+        ]
       },
       "icons": [
         {
@@ -172,15 +226,35 @@
     {
       "action": "./open",
       "accept": {
-        "audio/mpeg": [".mp3"],
-        "audio/wav": [".wav"],
-        "audio/ogg": [".ogg"],
-        "audio/flac": [".flac"],
-        "audio/aac": [".aac"],
-        "audio/webm": [".weba"],
-        "audio/mp4": [".m4a", ".m4b"],
-        "audio/opus": [".opus"],
-        "audio/midi": [".mid", ".midi"]
+        "audio/mpeg": [
+          ".mp3"
+        ],
+        "audio/wav": [
+          ".wav"
+        ],
+        "audio/ogg": [
+          ".ogg"
+        ],
+        "audio/flac": [
+          ".flac"
+        ],
+        "audio/aac": [
+          ".aac"
+        ],
+        "audio/webm": [
+          ".weba"
+        ],
+        "audio/mp4": [
+          ".m4a",
+          ".m4b"
+        ],
+        "audio/opus": [
+          ".opus"
+        ],
+        "audio/midi": [
+          ".mid",
+          ".midi"
+        ]
       },
       "icons": [
         {
@@ -213,7 +287,9 @@
     {
       "action": "./open",
       "accept": {
-        "application/pdf": [".pdf"]
+        "application/pdf": [
+          ".pdf"
+        ]
       },
       "icons": [
         {
@@ -255,7 +331,12 @@
       "files": [
         {
           "name": "files",
-          "accept": ["image/*", "video/*", "audio/*", ".pdf"]
+          "accept": [
+            "image/*",
+            "video/*",
+            "audio/*",
+            ".pdf"
+          ]
         }
       ]
     }
