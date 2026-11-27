@@ -50,8 +50,8 @@
 }
 
 .pdf-text-item:hover {
-    background-color: rgba(101, 105, 208, 0.1);
-    outline: 1px solid rgba(101, 105, 208, 0.4);
+    background-color: rgba(249, 150, 52, 0.1);
+    outline: 1px solid rgba(249, 150, 52, 0.4);
     outline-offset: 0px;
     /* Show text on hover for preview */
     color: inherit;
@@ -66,18 +66,18 @@
     /* Color will be set dynamically based on detected text color */
     /* Use outline instead of border to avoid layout shift */
     border: none !important;
-    outline: 2px solid #6569d0;
+    outline: 2px solid #F99634;
     outline-offset: 0px;
     border-radius: 2px;
     z-index: 20;
     min-width: 20px;
     overflow: visible;
-    box-shadow: 0 2px 8px rgba(101, 105, 208, 0.3);
+    box-shadow: 0 2px 8px rgba(249, 150, 52, 0.3);
     /* Enable text selection when editing */
     -webkit-user-select: text;
     user-select: text;
     /* Smooth caret */
-    caret-color: #6569d0;
+    caret-color: #F99634;
     /* Allow text to expand when editing */
     width: auto !important;
     min-height: 1em;

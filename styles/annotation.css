@@ -48,7 +48,7 @@
 
 .split-btn-main {
   flex: 1;
-  background-color: #6569d0;
+  background-color: #F99634;
   color: #ffffff;
   border: none;
   border-radius: 4px 0 0 4px;
@@ -66,12 +66,12 @@
 }
 
 .split-btn-main:hover {
-  background-color: #6569d0;
+  background-color: #F99634;
 }
 
 .split-btn-arrow {
   width: 36px;
-  background-color: #6569d0;
+  background-color: #F99634;
   color: #ffffff;
   border: none;
   border-left: 1px solid rgba(0, 0, 0, 0.1);
@@ -85,7 +85,7 @@
 }
 
 .split-btn-arrow:hover {
-  background-color: #6569d0;
+  background-color: #F99634;
 }
 
 .split-btn-dropdown {
@@ -259,7 +259,7 @@
 
 .font-family-select:focus,
 .font-size-select:focus {
-  border-color: #6569d0;
+  border-color: #F99634;
 }
 
 .style-controls {
@@ -454,7 +454,7 @@ input:checked + .toggle-slider:before {
 }
 
 .text-input-wrapper.selected {
-    border: 1px solid #6569d0;
+    border: 1px solid #F99634;
 }
 
 .text-input-wrapper:not(.selected) .resize-handle,

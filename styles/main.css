@@ -21,10 +21,10 @@
 /* CSS Variables - Wings8OS Color Scheme */
 :root {
   /* Primary Colors */
-  --primary-color: #6569d0;
-  --primary-variant: #6569d0;
-  --primary-rgb: 101, 105, 208;
-  --on-primary: #ffffff;
+  --primary-color: #F99634;
+  --primary-variant: #F99634;
+  --primary-rgb: 249, 150, 52;
+  --on-primary: #0B1F4B;
   
   /* Surface Colors */
   --surface-color: #202124;
@@ -38,7 +38,7 @@
   
   /* Secondary Colors */
   --secondary-color: #5f6368;
-  --accent-color: #6569d0;
+  --accent-color: #F99634;
   
   /* Error Colors */
   --error-color: #ea4335;
@@ -408,7 +408,7 @@ body.launching #app {
 }
 
 .audio-icon {
-  background-color: rgba(161, 66, 244, 0.15);
+  background-color: rgba(249, 150, 52, 0.15);
   color: #000000;
 }
 

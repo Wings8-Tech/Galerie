@@ -557,7 +557,7 @@ class AnnotationManager {
     textColorGroup.appendChild(textColorLabel);
     const textColorGrid = document.createElement('div');
     textColorGrid.className = 'color-grid';
-    const colors = ['#000000', '#3c4043', '#9aa0a6', '#dadce0', '#ffffff', '#ff8a80', '#ffff8d', '#ccff90', '#a7ffeb', '#d7ccc8', '#f44336', '#fdd835', '#4caf50', '#6569d0', '#795548', '#b71c1c', '#ff9800', '#1b5e20', '#1976d2', '#3e2723'];
+    const colors = ['#000000', '#3c4043', '#9aa0a6', '#dadce0', '#ffffff', '#ff8a80', '#ffff8d', '#ccff90', '#a7ffeb', '#d7ccc8', '#f44336', '#fdd835', '#4caf50', '#F99634', '#795548', '#b71c1c', '#ff9800', '#1b5e20', '#1976d2', '#3e2723'];
     colors.forEach(color => {
         const btn = document.createElement('button');
         btn.className = `color-btn ${this.currentColor === color ? 'active' : ''}`;
@@ -579,7 +579,7 @@ class AnnotationManager {
     colorGroup.appendChild(colorLabel);
     const colorGrid = document.createElement('div');
     colorGrid.className = 'color-grid';
-    const finalColors = ['#000000', '#5f6368', '#bdc1c6', '#ffffff', '#ff8a80', '#ffff8d', '#ccff90', '#a7ffeb', '#f44336', '#fdd835', '#4caf50', '#6569d0', '#d32f2f', '#f57c00', '#388e3c', '#1976d2', '#c2185b', '#7b1fa2', '#512da8', '#3e2723'];
+    const finalColors = ['#000000', '#5f6368', '#bdc1c6', '#ffffff', '#ff8a80', '#ffff8d', '#ccff90', '#a7ffeb', '#f44336', '#fdd835', '#4caf50', '#F99634', '#d32f2f', '#f57c00', '#388e3c', '#1976d2', '#c2185b', '#7b1fa2', '#512da8', '#3e2723'];
     finalColors.forEach(color => {
         const btn = document.createElement('button');
         btn.className = `color-btn ${this.currentColor === color ? 'active' : ''}`;
@@ -796,8 +796,8 @@ class AnnotationManager {
         this.selectionBox.style.top = `${this.textStartPoint.y}px`;
         this.selectionBox.style.width = '0px';
         this.selectionBox.style.height = '0px';
-        this.selectionBox.style.border = '1px dashed #6569d0';
-        this.selectionBox.style.backgroundColor = 'rgba(101, 105, 208, 0.1)';
+        this.selectionBox.style.border = '1px dashed #F99634';
+        this.selectionBox.style.backgroundColor = 'rgba(249, 150, 52, 0.1)';
         this.selectionBox.style.zIndex = '1000';
         this.selectionBox.style.pointerEvents = 'none';
         container.appendChild(this.selectionBox);
@@ -1184,7 +1184,7 @@ class AnnotationManager {
           handle.style.width = '10px';
           handle.style.height = '10px';
           handle.style.background = 'white';
-          handle.style.border = '1px solid #6569d0';
+          handle.style.border = '1px solid #F99634';
           handle.style.borderRadius = '50%';
           handle.style.zIndex = '1001';
           if (pos.includes('t')) handle.style.top = '-5px';
@@ -1209,7 +1209,7 @@ class AnnotationManager {
       rotHandle.style.width = '10px';
       rotHandle.style.height = '10px';
       rotHandle.style.background = 'white';
-      rotHandle.style.border = '1px solid #6569d0';
+      rotHandle.style.border = '1px solid #F99634';
       rotHandle.style.borderRadius = '50%';
       rotHandle.style.cursor = 'grab';
       rotHandle.style.zIndex = '1001';
@@ -1220,7 +1220,7 @@ class AnnotationManager {
       rotLine.style.left = '50%';
       rotLine.style.width = '1px';
       rotLine.style.height = '15px';
-      rotLine.style.background = '#6569d0';
+      rotLine.style.background = '#F99634';
       wrapper.appendChild(rotLine);
       wrapper.appendChild(rotHandle);
       this.setupRotationHandler(rotHandle, wrapper);
