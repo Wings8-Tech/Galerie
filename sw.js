@@ -1,4 +1,4 @@
-/*
+﻿/*
  * Copyright (C) 2025 Wings8 Technology
  *
  * This program is free software: you can redistribute it and/or modify
@@ -29,7 +29,7 @@
 // activate. Bumping it is no longer required for content changes to land, but it
 // is still the way to force an immediate service-worker update (and thus the
 // in-app "update available" prompt) when the worker logic itself changes.
-const CACHE_NAME = 'wings8os-gallery-v1.6.16';
+const CACHE_NAME = 'wings8os-gallery-v1.6.17';
 const urlsToCache = [
   './',
   './index.html',
